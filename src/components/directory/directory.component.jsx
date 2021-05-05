@@ -20,7 +20,7 @@ class Directory extends React.Component {
                   title: 'jackets',
                   imageUrl:'https://source.unsplash.com/Hng0RpHDgHI/',
                   id: 2,
-                  linkUrl:'shop/'
+                  linkUrl:'shop/jackets'
                 },
                 {
                   title: 'mens',

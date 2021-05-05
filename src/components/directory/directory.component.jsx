@@ -11,36 +11,36 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                  title: 'children',
-                  imageUrl:'https://source.unsplash.com/kmi-tO1k7ZA/480x320',
+                  title: 'hats',
+                  imageUrl:'https://source.unsplash.com/zsITsssJ_9I/',
                   id: 1,
-                  linkUrl:'shop/children'
+                  linkUrl:'shop/hats'
                 },
                 {
-                  title: 'womens',
-                  imageUrl:'https://source.unsplash.com/v72jY-UPyys/480x320',
+                  title: 'jackets',
+                  imageUrl:'https://source.unsplash.com/Hng0RpHDgHI/',
                   id: 2,
-                  linkUrl:'shop/womens'
+                  linkUrl:'shop/'
                 },
                 {
                   title: 'mens',
-                  imageUrl:'https://source.unsplash.com/IvOrTu727TE/480x320',
+                  imageUrl:'https://source.unsplash.com/r0l0Es5fbbs/',
                   id: 3,
                   linkUrl:'shop/mens'
                 },
                 {
-                  title: 'clearance',
-                  imageUrl:'https://source.unsplash.com/49mCO5ZRQDk/800x490',
+                  title: 'sneakers',
+                  imageUrl:'https://source.unsplash.com/SD9Jyl1xNQ4/',
                   size: 'large',
                   id: 4,
-                  linkUrl: 'shop/clearance'
+                  linkUrl: 'shop/sneakers'
                 },
                 {
-                  title: 'accessories',
-                  imageUrl:'https://source.unsplash.com/D4jRahaUaIc/800x490',
+                  title: 'womens',
+                  imageUrl:'https://source.unsplash.com/x9cXI2eQLBw/',
                   size: 'large',
                   id: 5,
-                  linkUrl:'shop/accessories'
+                  linkUrl:'shop/womens'
                 }
               ]
         };

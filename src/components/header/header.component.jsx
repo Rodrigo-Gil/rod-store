@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { auth } from '../../firebase/firebase.utils';
 import { connect } from 'react-redux';
 import CartIcon from '../cart-icon/cart-icon.component'
+import CartDropdown from '../cart-dropdown/cart-dropdown.components'
 
 import './header.styles.scss';
 import { ReactComponent as Logo } from '../../assets/logo.svg'
@@ -31,6 +32,7 @@ const Header = ({ currentUser }) => (
                 )}
                 <CartIcon />
         </div>
+        <CartDropdown />
     </div>
 )
 //this function will connect our state as a prop of the header

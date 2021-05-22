@@ -8,7 +8,7 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.components'
 import './header.styles.scss';
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to="/">
             <Logo className='logo' />
@@ -32,12 +32,15 @@ const Header = ({ currentUser }) => (
                 )}
                 <CartIcon />
         </div>
-        <CartDropdown />
+        {
+            hidden ? null : <CartDropdown />
+        }
     </div>
 )
 //this function will connect our state as a prop of the header
 //using connect (high order component)
-const mapStateToProps = (state) => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden }}) => ({
+    currentUser,
+    hidden
 })
 export default connect(mapStateToProps)(Header);

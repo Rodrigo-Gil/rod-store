@@ -3,18 +3,21 @@ const INITIAL_STATE = {
         {
             title: 'hats',
             imageUrl:'https://source.unsplash.com/zsITsssJ_9I/',
+            size: 'large',
             id: 1,
             linkUrl:'shop/hats'
         },
         {
             title: 'jackets',
             imageUrl:'https://source.unsplash.com/Hng0RpHDgHI/',
+            size: 'large',
             id: 2,
             linkUrl:'shop/jackets'
         },
         {
             title: 'mens',
             imageUrl:'https://source.unsplash.com/r0l0Es5fbbs/',
+            size: 'large',
             id: 3,
             linkUrl:'shop/mens'
         },

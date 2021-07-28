@@ -1,19 +1,19 @@
 .collection-page {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-    .title {
-        margin: 0 auto 30px;
-        font-size: 38px;
-    }
+	.title {
+		margin: 0 auto 30px;
+		font-size: 38px;
+	}
 
-    .items {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;
-        display: grid;
+	.items {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 10px;
+		display: grid;
 
-& .collection-item {
-        margin-bottom: 30px;
-}
-    }
+		& .collection-item {
+			margin-bottom: 30px;
+		}
+	}
 }
